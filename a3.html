@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23201013209 陈一铭</title>
+
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+        }
+        #box{
+            margin-left: 20px;
+            width: 204px;
+            height: 336px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #box-hd{
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        ul{
+            width: 100%;
+            height: 100%;
+            padding-left: 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        li{
+            max-width: calc((100% - 4px) / 2);
+            min-width: calc((100% - 4px) / 2);
+            height: 100px;
+            list-style-type:none;
+            border-top: 2px solid #e9e9e9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &:nth-child(2n){
+                border-left: 2px solid #e9e9e9;
+            }
+        }
+        
+        img{
+            width: 50px;
+            height: 50px;
+        }
+
+        a{
+            font-size: 12px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="box-hd">
+            实用工具
+        </div>
+
+        <ul >
+            <li>
+                <img src="./img/1.jpg"></img>
+                <a>车型对比</a>
+            </li>
+            <li>
+                <img src="./img/3.jpg"></img>
+                <a>购车流程</a>
+            </li>
+            <li>
+                <img src="./img/4.jpg"></img>
+                <a>购车计算</a>
+            </li>
+            <li>
+                <img src="./img/2.jpg"></img>
+                <a>车险计算</a>
+            </li>
+            <li>
+                <img src="./img/5.jpg"></img>
+                <a>用车记账</a>
+            </li>
+            <li>
+                <img src="./img/6.jpg"></img>
+                <a>违章查询</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
